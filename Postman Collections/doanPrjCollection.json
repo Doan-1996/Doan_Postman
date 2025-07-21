@@ -221,10 +221,19 @@
 									"pm.test(\"Kiểm tra token đúng là ‘QpwL5tke4Pnpja7X4’\", function () {\r",
 									"    pm.expect(jsonData.token).to.equal(ExpToken);\r",
 									"    });\r",
-									"    //Kiểm tra token có trả ra value mong muốn không - áp dụng csv với 3 biến như bảng để làm"
+									"    //Kiểm tra token có trả ra value mong muốn không - áp dụng csv với 3 biến như bảng để làm\r",
+									"\r",
+									"    console.log(\"Test\")"
 								],
 								"type": "text/javascript",
 								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"packages": {},
+								"type": "text/javascript"
 							}
 						}
 					],
